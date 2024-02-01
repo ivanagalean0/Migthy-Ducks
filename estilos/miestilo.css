@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(250, 250, 228);
+    font-family: 'Judson', serif;
+}
+
+/*---HEADER---*/
+h1{
+    margin: 10px;
+    font-size: 50px;
+}
+
+.header_titulo{
+    text-align: center;
+}
+
+.header_nav{
+    text-align: center;
+    padding: 10px;
+    
+}
+
+a[href="#"]{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 238, 152);
+}
+
+a{
+    color: black;
+    font-weight: bold;
+}
+
+.cajitas {
+    margin: 3px;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid rgb(255, 174, 0);
+    transition: all 0.5s ease-out;
+}
+.cajitas:hover{
+    background-color: rgb(255, 174, 0);
+    color: rgb(255, 255, 255);
+}
+
+.header_banner{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+
+/*---SECCIONES---*/
+h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+section{
+    text-align: center;
+}
+
+.div_section{
+    padding: 10px;
+}
+
+.section_logo{
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.section_logo:hover{
+    transform: scale(1.3);
+    transition: all 1s ease-out;
+}
+
+
+
+
+
+
