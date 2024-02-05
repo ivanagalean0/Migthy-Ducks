@@ -6,20 +6,29 @@
     font-family: 'Judson', serif;
 }
 
+.layout{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 /*---HEADER---*/
-h1{
+header div{
     margin: 10px;
-    font-size: 50px;
-}
-
-.header_titulo{
-    text-align: center;
-}
-
-.header_nav{
-    text-align: center;
     padding: 10px;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    font-size: 50px;
 }
 
 a[href="#"]{
@@ -40,6 +49,10 @@ a{
     font-size: 20px;
     border: 2px solid rgb(255, 174, 0);
     transition: all 0.5s ease-out;
+
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
 }
 .cajitas:hover{
     background-color: rgb(255, 174, 0);
@@ -53,25 +66,38 @@ a{
     margin-top: 10px;
 }
 
-
 /*---SECCIONES---*/
+main{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 h2{
     text-align: center;
-    color: rgb(0, 0, 0);
-    padding: 10px;
+    font-weight: bold;
+    padding: 5px;
 }
 section{
-    text-align: center;
-}
-
-.div_section{
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section_logo{
     border: 2px solid black;
     margin: 10px;
     border-radius: 8px;
+    width: 100px;
+    height: 100px;
+}
+
+.div_section{
+    margin: 10px;
+    text-align: center;
+
 }
 
 .section_logo:hover{
@@ -79,8 +105,13 @@ section{
     transition: all 1s ease-out;
 }
 
+.div_section article{
+    padding: 3px;
+    border-bottom: 2px solid black;
+    margin: 10px;
+    width: 60ch;
+}
 
-
-
-
-
+.div_section article:nth-last-child(1){
+    border-bottom: none;
+}

@@ -1,0 +1,46 @@
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    width: 75%;
+    border-collapse: collapse;
+
+}
+
+caption{
+    text-decoration: underline;
+    margin: 10px;
+}
+
+ table, tr, th, td{
+    border: 3px solid rgb(255, 174, 0);
+}
+th{
+    background-color: rgb(255, 238, 152);
+    padding: 10px;
+    font-size: 20px;
+}
+
+tbody{
+    text-align: center;
+}
+
+td{
+    padding: 10px;
+}
+
+dt{
+    padding: 10px;
+}
+
+span{
+    font-weight: bold;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
