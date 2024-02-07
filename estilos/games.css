@@ -16,31 +16,52 @@ caption{
 }
 
  table, tr, th, td{
-    border: 3px solid rgb(255, 174, 0);
+    border: 3px solid rgb(252, 131, 1);
 }
 th{
     background-color: rgb(255, 238, 152);
     padding: 10px;
     font-size: 20px;
+
 }
 
 tbody{
     text-align: center;
 }
 
-td{
-    padding: 10px;
+iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-dt{
-    padding: 10px;
+section{
+    margin-left: 140px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding: 5px;
+}
+
+p{
+    margin-top: 10px;
+    padding: 5px;
+    width: 60ch;
 }
 
 span{
+    font-size: 20px;
     font-weight: bold;
 }
 
 .info{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row; 
+    text-align: center;
 }

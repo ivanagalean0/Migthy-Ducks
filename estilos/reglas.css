@@ -7,6 +7,9 @@ dt{
     text-decoration: underline;
 }
 
+dl{
+    margin: 5px;
+}
 .caracteres{
     list-style-type: lower-alpha;
 }
@@ -25,7 +28,7 @@ main{
 }
 
 section{
-    margin: 5px;
+    /* margin: 5px; */
     width: 90ch;
 }
 
